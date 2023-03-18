@@ -1,7 +1,7 @@
 import { type } from "os";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/Logo.png";
 type Props = {};
 
 const Navbar = (props: Props) => {
@@ -22,6 +22,9 @@ const Navbar = (props: Props) => {
                                 <p>Benefits</p>
                                 <p>Our Classes</p>
                                 <p>Contact Us</p>
+                            </div>
+                            <div>
+                                <p>Login</p>
                             </div>
                         </div>
                     </div>
